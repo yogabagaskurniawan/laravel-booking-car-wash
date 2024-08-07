@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('stores', function (Blueprint $table) {
             $table->id();
             $table->integer('service_id');
-            $table->integer('location_id');
+            $table->integer('city_id');
             $table->string('uuid');
             $table->string('name');
             $table->boolean('is_open')->default(false);

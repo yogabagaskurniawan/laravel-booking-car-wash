@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="multikit">
     <meta name="keywords" content="multikit">
-    <title>Multikit - Multi-purpose Html Template</title>
-    <link rel="manifest" href="../manifest.json">
+    <title>Car Detailing</title>
+    <link rel="manifest" href="/user/manifest.json">
     <meta name="theme-color" content="#ff8d2f">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="multikit">
-    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileImage" content="/user/assets/images/favicon/1.svg">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="../assets/images/favicon/3.svg" type="image/x-icon">
-    <link rel="shortcut icon" href="../" type="image/x-icon">
+    <link rel="icon" href="/user/assets/images/favicon/3.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/user/" type="image/x-icon">
 
     <!-- Google font css link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,19 +25,19 @@
         href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap">
 
     <!-- Loader Normalize css -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="/user/assets/css/normalize.min.css">
 
     <!-- Bootstrap css -->
-    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="/user/assets/css/vendors/bootstrap.css">
 
     <!-- Swiper css -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="/user/assets/css/vendors/swiper/swiper-bundle.min.css">
 
     <!-- Remix Icon css -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+    <link rel="stylesheet" type="text/css" href="/user/assets/css/remixicon.css">
 
     <!-- Style css -->
-    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link id="change-link" rel="stylesheet" type="text/css" href="/user/assets/css/style.css">
 </head>
 
 <body class="grocery-color public-san-body">
@@ -614,23 +614,27 @@
     <!-- Theme Option Setting Box End --> --}}
 
     <!-- Bootstrap js-->
-    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/user/assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
 
     <!-- swiper js -->
-    <script src="../assets/js/swiper-bundle.min.js"></script>
-    <script src="../assets/js/custom_swiper.js"></script>
+    <script src="/user/assets/js/swiper-bundle.min.js"></script>
+    <script src="/user/assets/js/custom_swiper.js"></script>
 
     <!-- quantity js -->
-    <script src="../assets/js/quantity.js"></script>
+    <script src="/user/assets/js/quantity.js"></script>
 
     <!-- Loader js -->
-    <script src="../assets/js/loader.js"></script>
+    <script src="/user/assets/js/loader.js"></script>
 
     <!-- Theme js-->
-    <script src="../assets/js/script.js"></script>
+    <script src="/user/assets/js/script.js"></script>
 
     <!-- Theme Settings js-->
-    <script src="../assets/js/theme-setting.js"></script>
+    <script src="/user/assets/js/theme-setting.js"></script>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <x-livewire-alert::scripts />
+    <x-livewire-alert::flash />
 </body>
 
 </html>
