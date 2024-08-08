@@ -18,7 +18,7 @@ class CityList extends Component
     }
     public function render()
     {
-        $cities = City::latest()->search($this->search)->paginate(10);
+        $cities = City::latest()->search($this->search)->limit($this->limitData)->get();
         return view('livewire.admin.city.city-list', compact('cities'));
     }
     public function addLimitData()

@@ -12,7 +12,7 @@
 
         <div class="statbox widget box box-shadow">
             <div class="widget-content widget-content-area">
-                <form class="" wire:submit="addCity">
+                <form class="" wire:submit="addService">
                     <div class="row mb-4">
                         <div class="col-sm-4">
                             <label>Nama Layanan / Service</label>
@@ -40,7 +40,6 @@
                     <div class="row mb-4">
                         <div class="col-sm-6">
                             <label>Upload Gambar Layanan</label>
-                            <p class="text-danger">ukuran gambar maksimal 368 x 220</p>
                             {{-- <input wire:ignore wire:model="image"  type="file" name="image" id="imageSketsa" class="form-control @error('image') has-error @enderror" placeholder="image" onchange="previewSketsa('.imageDemo1', this.files[0])"> --}}
                             <input wire:ignore wire:model="image" type="file" class="form-control-file" @error('image') has-error @enderror" placeholder="image" onchange="previewSketsa('.imageDemo1', this.files[0])">
                             <div wire:ignore class="col-md mt-3">

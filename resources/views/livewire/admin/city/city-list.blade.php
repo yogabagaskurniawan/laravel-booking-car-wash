@@ -28,10 +28,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php $no = ($cities->currentPage() - 1) * $cities->perPage(); ?>
-                            @forelse ($cities as $city)
+                            @forelse ($cities as $index => $city)
                             <tr>
-                                <td>{{ ++$no }}</td>
+                                <td>{{ $index + 1 }}</td>
                                 <td>{{ $city->name }}</td>
                                 <td class="text-center">
                                     <div class="action-btns">

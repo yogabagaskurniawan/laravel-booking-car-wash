@@ -34,4 +34,8 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::get('/services/list-services', '\App\Livewire\Admin\Service\ServiceList');
     Route::get('/services/add-services', '\App\Livewire\Admin\Service\ServiceAdd');
     Route::get('/services/edit-services/{uuid}', '\App\Livewire\Admin\Service\ServiceEdit')->name('serviceEdit');
+
+    Route::get('/stores/list-stores', '\App\Livewire\Admin\Store\StoreList');
+    Route::get('/stores/add-stores', '\App\Livewire\Admin\Store\StoreAdd');
+    Route::get('/stores/edit-stores/{uuid}', '\App\Livewire\Admin\Store\StoreEdit')->name('storeEdit');
 });

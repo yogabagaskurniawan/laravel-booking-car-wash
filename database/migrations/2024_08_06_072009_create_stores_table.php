@@ -13,15 +13,15 @@ return new class extends Migration
     {
         Schema::create('stores', function (Blueprint $table) {
             $table->id();
-            $table->integer('service_id');
             $table->integer('city_id');
             $table->string('uuid');
             $table->string('name');
             $table->boolean('is_open')->default(false);
             $table->string('address');
             $table->string('about');
-            $table->string('name_owner');
-            $table->string('phone');
+            $table->string('cs_name');
+            $table->string('cs_phone');
+            $table->string('img_thumbnail');
             $table->timestamps();
         });
     }
